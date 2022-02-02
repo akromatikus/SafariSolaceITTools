@@ -4,6 +4,7 @@ import { themeContext } from "./themecontext";
 
 
 
+
 export enum Theme{
     default,
     other
@@ -23,7 +24,7 @@ export enum Color{
 
 export default function GetColor(colorType:Color){
     const context = useContext(themeContext);
-    switch(context.theme){
+    switch(0){
         // case Theme.default:{
         //     switch(colorType){
         //         case Color.Text: { return ''}
